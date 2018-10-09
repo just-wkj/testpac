@@ -1,0 +1,22 @@
+{
+    "name": "just/testpack",
+    "description": "这是描述",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "wangkeji",
+            "email": "602823863@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
+}
